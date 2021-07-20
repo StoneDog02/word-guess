@@ -1,0 +1,50 @@
+<style>
+  body {
+    margin: 0;
+  }
+  .color-block {
+    height: 500px;
+  }
+  .red {
+    background: red;
+    border: darkred solid 4px;
+    opacity: 0.8;
+  }
+  .blue {
+    background: blue;
+    border: darkblue solid 4px;
+    opacity: 0.8;
+  }
+  .hex {
+    border: #663399 solid 4px;
+    background: #ff69b4;
+    width: 100%;
+  }
+  .absolute {
+    position: absolute;
+    top: 0;
+    left: 200px;
+  }
+  .relative {
+    position: relative;
+  }
+  .fixed {
+    position: fixed;
+    top: 0;
+    left: 200px;
+    z-index: 10;
+  }
+</style>
+<div class="relative">
+  <div class="color-block red"></div>
+  <div class="color-block blue"></div>
+  <div class="color-block hex fixed"></div>
+  <div class="color-block red"></div>
+  <div class="color-block blue"></div>
+  <div class="color-block red relative"></div>
+  <div class="color-block blue"></div>
+  <div class="color-block red"></div>
+  <div class="color-block blue"></div>
+  <div class="color-block red"></div>
+  <div class="color-block blue"></div>
+</div>
