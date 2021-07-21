@@ -1,12 +1,36 @@
-<div class="game-container">
-  <h3>Word Guess Yo</h3>
-  <h1>PRESUMTIOUS</h1>
-  <input placeholder="gues one letter..." />
-  <button>guess</button>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Word Guess</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <h3>Word Guess Yo</h3>
+      <h1 class="word">PRE_UMTI_US</h1>
+      <div>
+        <input id="guessEl" />
+        <button onclick="guess()">guess</button>
+        <div>
+          <label>hint: guess one letter...</label>
+        </div>
+      </div>
+    </div>
+    <script src="/play.js"></script>
 
-<!-- get rid of these later -->
+    <!-- get rid of these later -->
 
-<a href="/index.html">index</a>
-<a href="/play.html">play</a>
-<a href="/finish.html">finish</a>
+    <a href="/index.html">index</a>
+    <a href="/play.html">play</a>
+    <a href="/finish.html">finish</a>
+  </body>
+</html>
