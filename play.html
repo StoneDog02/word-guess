@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Word Guess</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <h3>Guess the combination</h3>
+      <h1 class="word" id="wordElem">12-06-36</h1>
+      <div class="feedback"></div>
+      <div>
+        <label id="feedback" for="guessElem" class="normal"
+          >I am even. Half of me is the root of my last number. What is my
+          code?</label
+        >
+        <input id="guessElem" autofocus />
+        <button onclick="guess()">guess</button>
+        <div></div>
+      </div>
+    </div>
+    <script src="/play.js"></script>
+  </body>
+</html>
